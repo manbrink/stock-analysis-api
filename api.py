@@ -16,3 +16,6 @@ def perform_analysis(symbol):
         "piotroski": results["piotroski"],
         "altman": results["altman"],
     }
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=80)
